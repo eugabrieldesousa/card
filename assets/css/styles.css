@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+
+    line-height: 1.5rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 21rem;
+}
+
+.flag {
+    background-color: hsl(47, 88%, 63%);
+    display: inline;
+    padding: 0.6rem;
+    width: fit-content;
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    transition: color 0.5s ease-in-out;
+}
+
+#user {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 800;
+    align-items: center;
+}
+
+.user-img {
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+#card:hover {
+    cursor: pointer;
+    box-shadow: 16px 16px 0px 0px rgba(0, 0, 0, 1);
+}
+
+#card:hover h1 {
+    color: hsl(47, 88%, 63%);
+}
+
+#card {
+    padding: 1.5rem;
+    background-color: white;
+    gap: 24px;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    transition: all 1s ease-out
+}
+
+@media (max-width: 400px) {
+    #card {
+        
+    }
+}
